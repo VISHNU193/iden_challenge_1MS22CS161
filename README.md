@@ -242,5 +242,3 @@ Or use the `debug_page_structure()` method to inspect page elements.
 
 
 ---
-
-**Note**: This automation script is specifically designed for the Iden Challenge application structure and may require modifications for other websites or if the target application's structure changes.
