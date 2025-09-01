@@ -30,15 +30,15 @@ async def extract_via_xhr():
 - **Obfuscated Network Traffic**: Modern SPAs often obfuscate their network layer
 
 ### Pros
-- ✅ Fastest when available
-- ✅ Minimal resource usage
-- ✅ Clean, structured data
+-  Fastest when available
+-  Minimal resource usage
+-  Clean, structured data
 
 ### Cons
-- ❌ **Not feasible when APIs are hidden/protected**
-- ❌ Complex authentication replication
-- ❌ Fragile to API changes
-- ❌ May violate terms of service
+-  **Not feasible when APIs are hidden/protected**
+-  Complex authentication replication
+-  Fragile to API changes
+-  May violate terms of service
 
 ### Verdict: **IMPOSSIBLE** for hidden/protected applications
 
@@ -88,16 +88,16 @@ async def scroll_then_extract():
 - **Browser Hangs**: UI becomes unresponsive during large extractions
 
 ### Pros
-- ✅ Simple logic
-- ✅ Single output file
-- ✅ Complete dataset guarantee
+-  Simple logic
+-  Single output file
+-  Complete dataset guarantee
 
 ### Cons
-- ❌ **High memory consumption**
-- ❌ **Risk of losing all data on failure**
-- ❌ **Performance degradation with large datasets**
-- ❌ **Browser stability issues**
-- ❌ **No progress indication**
+-  **High memory consumption**
+-  **Risk of losing all data on failure**
+-  **Performance degradation with large datasets**
+-  **Browser stability issues**
+-  **No progress indication**
 
 ### Verdict: **RISKY** for large datasets
 
@@ -141,15 +141,15 @@ async def streaming_extraction():
 - **Race Conditions**: Risk of duplicate saves during rapid scrolling
 
 ### Pros
-- ✅ No data loss risk
-- ✅ Low memory footprint
-- ✅ Real-time progress
+-  No data loss risk
+-  Low memory footprint
+-  Real-time progress
 
 ### Cons
-- ❌ **High I/O overhead**
-- ❌ **Complex duplicate handling**
-- ❌ **Fragmented file structure**
-- ❌ **Slower overall performance**
+-  **High I/O overhead**
+-  **Complex duplicate handling**
+-  **Fragmented file structure**
+-  **Slower overall performance**
 
 ### Verdict: **INEFFICIENT** due to excessive I/O operations
 
@@ -212,17 +212,17 @@ async def batch_processing_extraction():
 - **Metadata Preservation**: Rich extraction metadata for analysis
 
 ### Pros
-- ✅ **Optimal memory usage**
-- ✅ **Risk mitigation through incremental saves**
-- ✅ **Scalable to any dataset size**
-- ✅ **Progress visibility**
-- ✅ **Configurable performance tuning**
-- ✅ **Error recovery capabilities**
-- ✅ **Maintains browser stability**
+-  **Optimal memory usage**
+-  **Risk mitigation through incremental saves**
+-  **Scalable to any dataset size**
+-  **Progress visibility**
+-  **Configurable performance tuning**
+-  **Error recovery capabilities**
+-  **Maintains browser stability**
 
 ### Cons
-- ❌ Slightly more complex implementation
-- ❌ Multiple output files (though consolidated file is provided)
+-  Slightly more complex implementation
+-  Multiple output files (though consolidated file is provided)
 
 ### Verdict: **OPTIMAL** for lazy-loading applications
 
