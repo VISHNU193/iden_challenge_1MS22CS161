@@ -46,12 +46,6 @@ source venv/bin/activate
 pip install playwright
 ```
 
-4. Install browser dependencies:
-
-```bash
-playwright install
-```
-
 ---
 
 ## Configuration
