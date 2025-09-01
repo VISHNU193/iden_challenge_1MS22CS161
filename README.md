@@ -2,6 +2,9 @@
 
 A robust Playwright-based automation script for extracting product data from the Iden Challenge application with intelligent batch processing and incremental file saving.
 
+## Demo
+https://github.com/user-attachments/assets/e300305a-bfff-47b4-85ba-461b15036756
+
 ## Features
 
 - **Batch Processing**: Extracts data in configurable batches (default: 250 products)
