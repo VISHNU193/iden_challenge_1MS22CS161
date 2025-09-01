@@ -59,7 +59,7 @@ class IdenChallengeAutomation:
         
         self.credentials = {
             "email": "vishnu25kp@gmail.com",
-            "password": ""
+            "password": "ELu1w53K"
         }
     
     async def __aenter__(self):
