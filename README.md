@@ -22,8 +22,8 @@ A robust Playwright-based automation script for extracting product data from the
 
 1. Clone this repository:
 ```bash
-git clone <repository-url>
-cd iden-challenge-automation
+git clone https://github.com/VISHNU193/iden_challenge_1MS22CS161
+cd iden_challenge_1MS22CS161
 ```
 
 2. Install Python dependencies:
