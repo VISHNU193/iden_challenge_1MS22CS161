@@ -17,24 +17,39 @@ A robust Playwright-based automation script for extracting product data from the
 - Python 3.7+
 - Playwright
 - Modern web browser (Chromium/Chrome)
+Here’s an updated **README** section with your requested additions. I’ve included the `venv` setup flow and streamlined the install steps so it’s easy to follow:
+
+---
 
 ## Installation
 
 1. Clone this repository:
+
 ```bash
 git clone https://github.com/VISHNU193/iden_challenge_1MS22CS161
 cd iden_challenge_1MS22CS161
 ```
 
-2. Install Python dependencies:
+2. Create and activate a virtual environment:
+
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+
+3. Install Python dependencies:
+
 ```bash
 pip install playwright
 ```
 
-3. Install browser dependencies:
+4. Install browser dependencies:
+
 ```bash
 playwright install
 ```
+
+---
 
 ## Configuration
 
@@ -51,13 +66,17 @@ self.credentials = {
 
 You can modify these settings in the `main()` function:
 
-- `BASE_URL`: The application URL (default: "https://hiring.idenhq.com/")
-- `HEADLESS`: Run browser in headless mode (default: True)
-- `BATCH_SIZE`: Products per batch (default: 2000)
+* `BASE_URL`: The application URL (default: `"https://hiring.idenhq.com/"`)
+* `HEADLESS`: Run browser in headless mode (default: `True`)
+* `BATCH_SIZE`: Products per batch (default: `2000`)
+
+---
 
 ## Usage
 
 ### Basic Usage
+
+Run the script after activating the virtual environment:
 
 ```bash
 python3 iden_challenge_final_script.py
